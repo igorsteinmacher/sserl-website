@@ -1,0 +1,11 @@
++++
+title = "Systematic Development of Programs for Scalable  Computing Using Coq (Tutorial)"
+date = 2017-01-01
+authors = ["Frédéric Loulergue"]
+publication_types = ["1"]
+abstract = " The SyDPaCC system is a set of libraries for the pr  oof assistant Coq that allows to write naive (i.e.  inef fi cient) functional programs then to transform  them into ef fi cient versions that could be  automatically parallelized within the framework  before being extracted from Coq to code in the  functional language OCaml plus calls to the parallel  functional programming library Bulk Synchronous  Parallel ML.  These goals of the tutorial are to  provide an introduction to the development of  correct-by-construction parallel programs, and to  able the attendees to develop functio nal parallel  programs using the SYDPACC system and the Coq proof  assistant.  "
+selected = "false"
+publication = "*International Conference on High Performance  Computing and Simulation (HPCS)*"
+doi = "10.1109/HPCS.2017.8"
++++
+

@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://sserl.github.io"
 
 # Title of your site
-title = "Academic"
+title = "SSERL"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -51,24 +51,29 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "SICCS Software Engineering Research Laboratory"
+  #role = 
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [
+    { name = "School of Informatics, Computing, and Cyber Systems",
+      url  = "https://nau.edu/siccs" }, 
+    { name = "Northern Arizona University",
+      url = "https://nau.edu" }
+ ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  # avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
-  keybase = ""  # Your keybase.io username.
+  # email = "test@example.org"
+  # address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  # phone = "888 888 88 88"
+  # skype = "echo123"
+  # telegram = ""
+  # keybase = ""  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -218,7 +223,7 @@ enableGitInfo = false
     #   2 = APA
     #   3 = MLA
     #   4 = Stream
-    publication_format = 4
+    publication_format = 2
 
     # Talk list format.
     #   0 = Simple
@@ -244,25 +249,25 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fas"
-    link = "mailto:test@example.org"
+  #[[params.social]]
+  #  icon = "envelope"
+  #  icon_pack = "fas"
+  #  link = "mailto:test@example.org"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "//twitter.com/GeorgeCushen"
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fab"
+#    link = "//twitter.com/GeorgeCushen"
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+#  [[params.social]]
+#    icon = "google-scholar"
+#    icon_pack = "ai"
+#    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/gcushen"
+    link = "//github.com/SSERL"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -286,23 +291,28 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
-  weight = 2
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  url = "#publications"
   weight = 3
 
+#[[menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
+
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Software"
+  url = "#software"
   weight = 4
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+  name = "Members"
+  url  = "#members"
+  weight = 1
+
+#[[menu.main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
