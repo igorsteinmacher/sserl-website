@@ -3,4 +3,10 @@
 	url = https://github.com/gcushen/hugo-academic.git
 [submodule "public"]
 	path = public
-	url = git@github.com:SSERL/sserl.github.io.git
+	url = https://github.com/SSERL/sserl.github.io
+[submodule "sserl.github.io"]
+	path = sserl.github.io
+	url = https://github.com/SSERL/sserl.github.io
+[submodule "out"]
+	path = out
+	url = https://github.com/SSERL/sserl.github.io
