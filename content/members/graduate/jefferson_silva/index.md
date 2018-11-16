@@ -7,7 +7,7 @@ tags = [ "Grad" ]
 weight = 20
 +++
 
-Ana Paula Chaves is a PhD candidate at the [Institute of
+Jefferson Silva is a PhD candidate at the [Institute of
 Mathematics and Statistics](http://ime.usp.br), [University
 of São Paul](http://www.usp.br) in Brazil, advised by [Marco
 Gerosa](https://www.ime.usp.br/~gerosa) and [Igor 
