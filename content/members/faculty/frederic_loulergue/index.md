@@ -5,5 +5,5 @@ title  = "Frédéric Loulergue"
 summary = "Professor"
 tags = [ "Faculty" ]
 external_link = "https://frederic.loulergue.eu"
-weight = 4
+weight = 1
 +++

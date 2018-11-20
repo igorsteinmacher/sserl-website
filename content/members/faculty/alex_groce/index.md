@@ -5,5 +5,5 @@ title  = "Alex Groce"
 summary = "Associate Professor"
 tags = [ "Faculty" ]
 external_link = "https://agroce.github.io/"
-weight = 3
+weight = 1
 +++
