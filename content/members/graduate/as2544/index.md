@@ -3,7 +3,7 @@ date = 2018-10-26T00:00:00
 layout = "project"
 title = "Austin Sander"
 summary = "Graduate Research Assistant"
-tags = [ "Grad" ]
+tags = [ "Grad", "C" ]
 weight = 20
 +++
 

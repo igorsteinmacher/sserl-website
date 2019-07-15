@@ -3,7 +3,7 @@ date = 2018-10-26T12:30:00
 layout = "project"
 title  = "Alex Groce"
 summary = "Associate Professor"
-tags = [ "Faculty" ]
+tags = [ "Faculty", "C" ]
 external_link = "https://agroce.github.io/"
 weight = 1
 +++

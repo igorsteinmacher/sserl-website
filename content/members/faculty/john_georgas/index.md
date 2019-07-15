@@ -1,8 +1,8 @@
 +++
 layout = "project"
 title  = "John Georgas"
-summary = "Associate Professor"
-tags = [ "Faculty" ]
+summary = "Dean of CEIAS"
+tags = [ "Faculty", "C" ]
 external_link = "https://www.cefns.nau.edu/~jg455/"
 weight = 1
 +++

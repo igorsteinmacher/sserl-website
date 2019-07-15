@@ -1,5 +1,5 @@
 +++
-title = "Parallel Programming With the Orleans Skeleton Library"
+title = "Parallel Programming with the Orleans Skeleton Library"
 date = 2019-02-05T15:16:56-07:00  # Schedule page publish date.
 draft = false
 
